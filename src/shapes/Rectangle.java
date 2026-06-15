@@ -20,13 +20,13 @@ public class Rectangle extends Shape {
     }
 
     public String toString() {
-    return "[ Rectangle ]\n" +
-           super.toString() + "\n" +
-           "Width : " + width + "\n" +
-           "Length: " + length + "\n" +
-           String.format("Area         : %.2f", getArea()) + "\n" +
-           String.format("Perimeter : %.2f", getPerimeter());
-}
+        return "[ Rectangle ]\n" +
+               super.toString() + "\n" +
+               "Width : " + width + "\n" +
+               "Length: " + length + "\n" +
+               String.format("Area      : %.2f", getArea()) + "\n" +
+               String.format("Perimeter : %.2f", getPerimeter());
+    }
 
     public double getWidth() {
         return width;
