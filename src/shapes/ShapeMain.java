@@ -1,4 +1,3 @@
-// Enter code here
 package shapes;
 
 import java.util.Scanner;
